@@ -45,7 +45,7 @@ body {
       width: 300px;
       height: 400px;
       margin: 0 auto;
-      background: #7f32a8;
+      background: #000;
       border-radius: 15px;
       box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 
@@ -69,19 +69,19 @@ body {
           }
 
           .java {
-            background-color: #fff;
+            background-color: #fffc00;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
 
           .python {
-            background-color: #fff;
+            background-color: #00fffc;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
 
           .cSharp {
-            background-color: #fff;
+            background-color: #fc00ff;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
@@ -111,35 +111,35 @@ body {
       }
     }
 
-    .card .face.face2 {
+    .card:nth-child(1) .face.face2 {
       background-image: linear-gradient(
         40deg,
-        #fff6eb  0%,
-        #7f32a8 45%,
-        #00305c 100%
+        #fffc00 0%,
+        #fc00ff 45%,
+        #00fffc 100%
       );
       border-radius: 15px;
     }
 
-    // .card:nth-child(2) .face.face2 {
-    //   background-image: linear-gradient(
-    //     40deg,
-    //     #fc00ff 0%,
-    //     #00fffc 45%,
-    //     #fffc00 100%
-    //   );
-    //   border-radius: 15px;
-    // }
+    .card:nth-child(2) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #fc00ff 0%,
+        #00fffc 45%,
+        #fffc00 100%
+      );
+      border-radius: 15px;
+    }
 
-    // .card:nth-child(3) .face.face2 {
-    //   background-image: linear-gradient(
-    //     40deg,
-    //     #00fffc 0%,
-    //     #fc00ff 45%,
-    //     #fffc00 100%
-    //   );
-    //   border-radius: 15px;
-    // }
+    .card:nth-child(3) .face.face2 {
+      background-image: linear-gradient(
+        40deg,
+        #00fffc 0%,
+        #fc00ff 45%,
+        #fffc00 100%
+      );
+      border-radius: 15px;
+    }
   }
 }
 button {
